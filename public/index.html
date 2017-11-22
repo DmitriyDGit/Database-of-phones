@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>JS/Expert Example</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+	<div class="container">
+			<div id = "result">
+				<div id = "form-wrapper">
+						<form id= "dataSetChoice">
+								<label class="radio-inline"><B>Набор данных:</B></label>
+								<label class="radio-inline"><input type="radio" name = "dataset" value="big">Большой</label>
+								<label class="radio-inline"><input type="radio" name = "dataset" value="small">Маленький</label>
+								<label class="radio-inline"><input type="radio" name = "dataset" value="privat">Свой</label>
+
+								<br>
+
+								<div id = "filter-wrapper">
+										<label class="radio-inline"><input id = "myInput" type="text"  placeholder = "Search"></label>
+										
+								</div>
+
+								<br>
+								<div id = "columnsChoiсe">
+										<label class="checkbox-inline"><B>Выбор столбцов:</B></label>
+										<label class="checkbox-inline"><input class="checkboxColumn" type="checkbox" name = "id" value="№">№</label>
+										<label class="checkbox-inline"><input class="checkboxColumn" type="checkbox" name = "name" value="description">Название</label>
+										<label class="checkbox-inline"><input class="checkboxColumn" type="checkbox" name = "price" value="price">Стоимость</label>
+										<label class="checkbox-inline"><input class="checkboxColumn" type="checkbox" name = "quantity" value="quantity">Количество</label>
+										<button type="button" id="columnsChoiсeBtn" class="btn btn-default">Построить таблицу</button>
+								</div>
+						</form> 
+				</div>
+				<div id= "table-wrapper">
+						<table id= "table" class="table table-bordered"> </table>
+				</div>
+				<div id = "info">
+				</div>
+				<div id="addNewBlock" >
+					<input type="button" name="addNewBlock" value = "Добавить еще один">
+				</div>
+			</div> 
+	</div>
+
+
+    
+    <footer class="py-5 bg-dark">
+      <div class="container1">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+    </footer>
+
+  
+   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/model.js"></script>
+	
+	<script src="js/moment.js"></script>
+</body>
+</html>

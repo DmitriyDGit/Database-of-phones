@@ -1,0 +1,48 @@
+
+
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+    
+.table-wrapper {
+    display:block;
+}
+
+.container {
+    background-color: #E0FFFF;    
+    
+    opacity:1.2;
+    z-index: -1;
+    padding: 10px 10px;
+}
+
+body::after {
+    
+}
+
+.slide-inline {
+    display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: right;
+}
+
+.slide  {
+    padding: 20px;
+} 
+
+#columnsChoiсe {
+   display: none;
+}
+
+#filter-wrapper {
+    display:none;
+}

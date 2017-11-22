@@ -1,0 +1,16 @@
+[
+   { "id": "Идентификатор", "name": "Название", "price": "Стоимость", "quantity": "Количество"},
+   {"id": "1",  "name": "iPhone 5","price":"400","quantity":"5"},
+  {"id": "2",  "name": "XBOX","price":"300","quantity":"7"},
+   {"id": "3",  "name": "Samsung","price":"400","quantity":"6"},
+   {"id": "4",  "name": "Meizu","price":"200","quantity":"1"},
+   {"id": "5",  "name": "Xiaomi","price":"200","quantity":"6"},
+    {"id": "6",  "name": "HP","price":"1500","quantity":"4"},
+   {"id": "7",  "name": "Epson","price":"800","quantity":"7"},
+   {"id": "8",  "name": "Nokia","price":"100","quantity":"3"}
+]
+
+
+
+
+
